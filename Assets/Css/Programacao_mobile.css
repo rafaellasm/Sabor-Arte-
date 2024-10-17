@@ -1,0 +1,92 @@
+@media screen and (max-width: 1170px){
+    #programacao{
+        margin-top: 15%;
+    }
+    
+    .title{
+        margin: 0 auto;
+        background-color: var(--cards-color);
+        width: 100%;
+        max-width: 50%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .dia_programacao{
+        display: block;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    #dia_title{
+        text-align: center;
+        color: var(--dark-text);
+        padding: 10px 0;
+        margin-bottom: 5rem;
+        text-shadow: 1px 1px 1px  var(--ligth-text);
+    }
+
+    .dia_title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .dias{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .textos_programacao p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .descri_imagem{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .imagens_programacao img{
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .paragrafo_invisivel{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .veja_mais_dia{
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        max-width: fit-content;
+        color: var(--dark-text);
+        font-size: 16px;
+    }
+
+    #veja_mais_dia1:hover{
+        background-color: var(--secundary-color);
+    }
+    #veja_mais_dia2:hover{
+        background-color: var(--secundary-color);
+    }
+    #veja_mais_dia3:hover{
+        background-color: var(--secundary-color);
+    }
+
+    .desenvolvedor span{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .redes_sociais{
+        display: flex;
+        margin: 0 auto;
+        gap: 10px;
+        padding: 30px;
+    }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Arte - Evento de culinária</title>
+    <link rel="stylesheet" href="Assets/Css/Reset.css">
+    <link rel="stylesheet" href="Assets/Css/Variable.css">
+    <link rel="stylesheet" href="Assets/Css/Style.css">
+    <link rel="stylesheet" href="Assets/Css/Confirm_presenca.css">
+    <script src="https://kit.fontawesome.com/de7d99b1e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="Assets/Images/Logo/Logo - restaurante.png" alt="Logo">
+            <span>Sabor & Arte</span>
+        </div>
+
+        <div id="menu_mobile">
+            <button id="btn_mobile"><img id="menu_abrir" src="Assets/Images/Mobile/Icone - Menu abrir.svg" alt="Icone para abrir o menu mobile"><button></button>
+            <nav id="nav">
+                <ul id="menu">
+                    <li><a href="Index.html">Página Inicial</a></li>
+                    <li><a href="Programacao_mobile.html">Programação</a></li>
+                    <li><a href="Chefes_mobile.html">Chefes</a></li>
+                    <li><a href="Local_mobile.html">Local</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="formulario">
+                <h2>Confirme sua presença!</h2>
+                <div class="container_formulario">
+                    <div class="logo_presenca">
+                        <img src="Assets/Images/Logo/Logo - hamburguer.png" alt="Logo">
+                    </div>
+                    <div class="tudo_form">
+                        <form>
+                            <div class="informacoes">
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                                <label for="telefone">Celular:</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="Digite seu celular">
+                            </div>
+                            <div class="genero">
+                                <span>Genêro:</span>
+                                <input type="radio" id="genero" name="perg2" value="feminino">
+                                <label for="feminino">Feminino</label>
+                                <input type="radio" id="genero" name="perg2" value="masculino">
+                                <label for="masculino">Masculino</label>
+                                <input type="radio" id="genero" name="perg2" value="outro">
+                                <label for="outro">Outro</label>
+                            </div>
+                            <div class="data">
+                                <span><i class="bi bi-calendar-heart"></i> Selecione a melhor data para você:</span>
+                                <label for="data">Data:</label>
+                                <input type="date" name="data" id="data" min="2024-11-14" max="2024-11-16" required>
+                            </div>
+                            <div class="enviar">
+                                <button id="submit"><input type="submit" id="submit" name="enviar" value="Enviar"></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="tudo_rodape">
+            <h2>Esperamos contar com a sua presença</h2>
+            <div class="desenvolvedor">
+                <span>Desenvolvido por Rafaella dos Santos Marques</span>
+                <div class="redes_sociais">
+                    <button><a href="https://www.instagram.com/itsme_rafaellaa/" target="_blank"><img class="instagram_icone" src="Assets/Images/Redes Sociais/instagram.png" alt="Redes Socias"></a></button>
+                    <button><a href="https://www.linkedin.com/in/rafaella-marques-b81bb4275/" target="_blank"><img class="linkedin_icone" src="Assets/Images/Redes Sociais/linkedin.png" alt="Redes Socias"></a></button>
+                    <button><a href="https://github.com/rafaellasm" target="_blank"><img class="github_icone" src="Assets/Images/Redes Sociais/github.png" alt="Redes Socias"></a></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Assets/JavaScript/Formulario.js"></script>
+    <script src="Assets/JavaScript/Menu_mobile.js"></script>
+</body>
+</html>

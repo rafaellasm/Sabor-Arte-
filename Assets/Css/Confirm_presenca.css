@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+.logo img{
+    width: 60px;
+}
+
+.logo span{
+    font-family: dm serif display, sans-serif;
+    font-size: 19px;
+}
+
+.menu{
+    margin-right: 10px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu li a{
+    position: relative;
+    color: black;
+    padding: 3px;
+    font-size: 17px;
+}
+
+.menu a::after{
+    content: " ";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #F77F00;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.menu a:hover::after{
+    width: 100%;
+}
+
+.menu a:hover{
+    font-weight: 500;
+    text-shadow: 0px 1px 1px #ffff;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_presenca img{
+    width: 450px;
+}
+
+.container_formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tudo_form{
+    margin-top: 8%;
+    border-radius: 20px;
+    background-color: #F77F00;
+    height: 550px;
+    width: 400px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes input{
+    padding: 0.5rem;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.informacoes label{
+    margin-top: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.genero span{
+    display: flex;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.genero input{
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data span{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.data label{
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.data input{
+    width: 50%;
+    padding: 5px 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.enviar button{
+    display: flex;
+    margin: 0 auto;
+    background-color: transparent;   
+    margin-top: 40px;
+    border: none;
+    width: 40%;
+    padding: 5px 5px;
+    transition: 0.8s ease-in-out;
+    border-radius: 20px;
+}
+
+.enviar button:hover{
+    background-color: #f3d180;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}   
+
+.enviar input{
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.rodape{
+    background-color: #f3d180;
+}
+
+.tudo_rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.tudo_rodape h2{
+    margin-top: 20px;
+}
+
+.confirm_rodape{
+    margin-top: 30px;
+    width: 15%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F77F00;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.confirm_rodape a{
+    color: black;
+}
+
+.confirm_rodape i{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.confirm_rodape:hover{
+    background-color: #fa9f25;
+    width: 18%;
+}
+
+.desenvolvedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.redes_sociais{
+    display: flex;
+    margin-left: 67rem;
+    gap: 10px;
+    padding: 10px;
+}
+
+.redes_sociais button{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.instagram_icone{
+    width: 35px;
+    transition: 0.4s ease-in-out;
+}
+
+.linkedin_icone{
+    width: 30px;
+    transition: 0.4s ease-in-out;
+}
+
+.github_icone{
+    width: 30px;
+    transition: 0.4s ease-in-out;
+}
+
+.instagram_icone:hover{
+    width: 40px;
+}
+
+.linkedin_icone:hover{
+    width: 35px;
+}
+
+.github_icone:hover{
+    width: 35px;
+}
+
+@media screen and (max-width: 1170px){
+    
+    .logo img{
+        width: 100%;
+    }
+
+    .logo_presenca img{
+        display: none;
+    }
+
+    .tudo_form{
+        margin: 0 auto;
+        margin-top: 15%;
+        width: 90%;
+    }
+
+    .informacoes label{
+        font-size: 18px;
+    }
+
+    .informacoes input{
+        margin-top: 10px;
+        width: 85%;
+        font-size: 15px;
+    }
+
+    .genero span{
+        font-size: 18px;
+    }
+
+    .genero input[type=radio]{
+        padding: 10px;
+        width: 100%;
+    }
+
+    .desenvolvedor span{
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .redes_sociais{
+        display: flex;
+        margin: 0 auto;
+        gap: 10px;
+        padding: 30px;
+    }
+    
+}
+
+   
