@@ -98,7 +98,7 @@ body{
     left: 0;
     top: 0;
     background-color: var(--cards-color);
-    clip-path: circle(800px at right 1000px);
+    clip-path: circle(700px at right 1000px);
 }
 
 .sabor_arte{
@@ -106,12 +106,7 @@ body{
 }
 
 .sabor_arte img{
-    width: 500px;
-    transition: 0.5s ease-in-out;
-}
-
-.sabor_arte img:hover{
-    width: 550px;
+    margin-top: 50px;
 }
 
 .data_evento{
@@ -626,7 +621,7 @@ body{
     }
 
     .circulo{
-        clip-path: circle(700px at center 1000px);
+        clip-path: circle(650px at right 1000px);
     }
 
     .menu{
