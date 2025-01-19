@@ -179,9 +179,8 @@ body{
 }
 
 .dia_programacao{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-row: 2fr;
     margin-top: 5%;
     margin-left: 4%;
 }
@@ -621,7 +620,7 @@ body{
     }
 
     .circulo{
-        clip-path: circle(650px at right 1000px);
+        clip-path: circle(800px at center 1000px);
     }
 
     .menu{
@@ -644,12 +643,7 @@ body{
     }
 
     .sabor_arte img{
-       margin-left: 0.8rem;
-        width: 90%;
-    }
-
-    .sabor_arte img:hover{
-        width: 90%;
+        width: 100%;
     }
 
     .data_evento{
@@ -742,9 +736,127 @@ body{
         margin-top: 20px;
     }
 
+}
 
+@media screen and (max-width: 740px){
+
+    .circulo{
+        clip-path: circle(380px at center 800px);
+    }
+
+    .sabor_arte{
+        margin-bottom: 50%;
+    }
+
+    .data_evento span{
+        font-size: 18px;
+    }
+
+    .data_evento h2{
+        font-size: 22px;
+    }
+
+    .sabor_arte_title{
+        font-size: 48px;
+    }
+
+    .infos_programacao h2{
+        font-size: 16px;
+    }
+
+    .infos_programacao span{
+        font-size: 16px;
+    }
+
+    .confirm_presenca{
+        width: 100%;
+        max-width: 60%;
+        font-size: 14px;
+    }
+
+    .confirm_presenca:hover{
+        width: 100%;
+        max-width: 60%;
+        background-color: var(--secundary-color);
+    }
+
+    .tudo_rodape h2{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .confirm_rodape{
+        width: 100%;
+        max-width: 70%;
+        font-size: 14px;
+    }
+
+    .confirm_rodape:hover{
+        width: 100%;
+        max-width: 60%;
+        background-color: var(--secundary-color);
+    }
 
 }
+
+@media screen and (max-width: 915px){
+
+    .circulo{
+        clip-path: circle(380px at center 900px);
+    }
+
+    .sabor_arte{
+        margin-bottom: 60%;
+    }
+
+    .sabor_arte img{
+        margin-top: 30%;
+    }
+
+    .data_evento span{
+        font-size: 20px;
+    }
+
+    .data_evento h2{
+        font-size: 26px;
+    }
+
+    .sabor_arte_title{
+        font-size: 58px;
+    }
+
+    .data_evento h4{
+        font-size: 18px;
+    }
+
+    .infos_programacao h2{
+        font-size: 18px;
+    }
+
+    .infos_programacao span{
+        font-size: 18px;
+    }
+
+    .confirm_presenca{
+        width: 100%;
+        max-width: 60%;
+        font-size: 16px;
+    }
+
+    .tudo_rodape h2{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .confirm_rodape{
+        width: 100%;
+        max-width: 70%;
+        font-size: 16px;
+    }
+
+}
+
+
 
 
 
